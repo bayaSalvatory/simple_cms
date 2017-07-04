@@ -1,0 +1,17 @@
+<%= link_to("<< Back to List", {controller: 'pages', action: 'index', :subject_id => @subject.id}, :class => 'back-link')%>
+
+<div class="pages new">
+
+	<h2>Create Subject</h2>
+
+	<%= form_for(:page, url: {controller: 'pages', action: 'create', :subject_id => @subject.id}) do |f| %>
+	
+	<%= render(partial: 'form', locals: {f: f}) %>
+
+	<div class="form-buttons">
+		<%= submit_tag("Create Page") %>
+	</div>
+
+	<% end %>
+	
+</div>

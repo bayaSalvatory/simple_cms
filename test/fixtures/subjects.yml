@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  string: MyString
+  name: MyString
+  integer: MyString
+  position: MyString
+  boolean: MyString
+  visible: MyString
+
+two:
+  string: MyString
+  name: MyString
+  integer: MyString
+  position: MyString
+  boolean: MyString
+  visible: MyString
